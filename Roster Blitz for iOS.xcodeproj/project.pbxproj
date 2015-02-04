@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BABA46F01A81D4F200617F67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA46EF1A81D4F200617F67 /* main.m */; };
+		BABA46F31A81D4F200617F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA46F21A81D4F200617F67 /* AppDelegate.m */; };
+		BABA46F61A81D4F200617F67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA46F51A81D4F200617F67 /* ViewController.m */; };
+		BABA46F91A81D4F200617F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABA46F71A81D4F200617F67 /* Main.storyboard */; };
+		BABA46FB1A81D4F200617F67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BABA46FA1A81D4F200617F67 /* Images.xcassets */; };
+		BABA46FE1A81D4F200617F67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABA46FC1A81D4F200617F67 /* LaunchScreen.xib */; };
+		BABA470A1A81D4F300617F67 /* Roster_Blitz_for_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BABA47091A81D4F300617F67 /* Roster_Blitz_for_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BABA47041A81D4F300617F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BABA46E21A81D4F200617F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BABA46E91A81D4F200617F67;
+			remoteInfo = "Roster Blitz for iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BABA46EA1A81D4F200617F67 /* Roster Blitz for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roster Blitz for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABA46EE1A81D4F200617F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA46EF1A81D4F200617F67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BABA46F11A81D4F200617F67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BABA46F21A81D4F200617F67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BABA46F41A81D4F200617F67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BABA46F51A81D4F200617F67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BABA46F81A81D4F200617F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BABA46FA1A81D4F200617F67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BABA46FD1A81D4F200617F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BABA47031A81D4F300617F67 /* Roster Blitz for iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roster Blitz for iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABA47081A81D4F300617F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABA47091A81D4F300617F67 /* Roster_Blitz_for_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Roster_Blitz_for_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BABA46E71A81D4F200617F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA47001A81D4F300617F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BABA46E11A81D4F200617F67 = {
+			isa = PBXGroup;
+			children = (
+				BABA46EC1A81D4F200617F67 /* Roster Blitz for iOS */,
+				BABA47061A81D4F300617F67 /* Roster Blitz for iOSTests */,
+				BABA46EB1A81D4F200617F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BABA46EB1A81D4F200617F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BABA46EA1A81D4F200617F67 /* Roster Blitz for iOS.app */,
+				BABA47031A81D4F300617F67 /* Roster Blitz for iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BABA46EC1A81D4F200617F67 /* Roster Blitz for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BABA46F11A81D4F200617F67 /* AppDelegate.h */,
+				BABA46F21A81D4F200617F67 /* AppDelegate.m */,
+				BABA46F41A81D4F200617F67 /* ViewController.h */,
+				BABA46F51A81D4F200617F67 /* ViewController.m */,
+				BABA46F71A81D4F200617F67 /* Main.storyboard */,
+				BABA46FA1A81D4F200617F67 /* Images.xcassets */,
+				BABA46FC1A81D4F200617F67 /* LaunchScreen.xib */,
+				BABA46ED1A81D4F200617F67 /* Supporting Files */,
+			);
+			path = "Roster Blitz for iOS";
+			sourceTree = "<group>";
+		};
+		BABA46ED1A81D4F200617F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABA46EE1A81D4F200617F67 /* Info.plist */,
+				BABA46EF1A81D4F200617F67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BABA47061A81D4F300617F67 /* Roster Blitz for iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BABA47091A81D4F300617F67 /* Roster_Blitz_for_iOSTests.m */,
+				BABA47071A81D4F300617F67 /* Supporting Files */,
+			);
+			path = "Roster Blitz for iOSTests";
+			sourceTree = "<group>";
+		};
+		BABA47071A81D4F300617F67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BABA47081A81D4F300617F67 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BABA46E91A81D4F200617F67 /* Roster Blitz for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABA470D1A81D4F300617F67 /* Build configuration list for PBXNativeTarget "Roster Blitz for iOS" */;
+			buildPhases = (
+				BABA46E61A81D4F200617F67 /* Sources */,
+				BABA46E71A81D4F200617F67 /* Frameworks */,
+				BABA46E81A81D4F200617F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roster Blitz for iOS";
+			productName = "Roster Blitz for iOS";
+			productReference = BABA46EA1A81D4F200617F67 /* Roster Blitz for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BABA47021A81D4F300617F67 /* Roster Blitz for iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABA47101A81D4F300617F67 /* Build configuration list for PBXNativeTarget "Roster Blitz for iOSTests" */;
+			buildPhases = (
+				BABA46FF1A81D4F300617F67 /* Sources */,
+				BABA47001A81D4F300617F67 /* Frameworks */,
+				BABA47011A81D4F300617F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BABA47051A81D4F300617F67 /* PBXTargetDependency */,
+			);
+			name = "Roster Blitz for iOSTests";
+			productName = "Roster Blitz for iOSTests";
+			productReference = BABA47031A81D4F300617F67 /* Roster Blitz for iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BABA46E21A81D4F200617F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Henry Lyford";
+				TargetAttributes = {
+					BABA46E91A81D4F200617F67 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					BABA47021A81D4F300617F67 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = BABA46E91A81D4F200617F67;
+					};
+				};
+			};
+			buildConfigurationList = BABA46E51A81D4F200617F67 /* Build configuration list for PBXProject "Roster Blitz for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BABA46E11A81D4F200617F67;
+			productRefGroup = BABA46EB1A81D4F200617F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BABA46E91A81D4F200617F67 /* Roster Blitz for iOS */,
+				BABA47021A81D4F300617F67 /* Roster Blitz for iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BABA46E81A81D4F200617F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA46F91A81D4F200617F67 /* Main.storyboard in Resources */,
+				BABA46FE1A81D4F200617F67 /* LaunchScreen.xib in Resources */,
+				BABA46FB1A81D4F200617F67 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA47011A81D4F300617F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BABA46E61A81D4F200617F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA46F61A81D4F200617F67 /* ViewController.m in Sources */,
+				BABA46F31A81D4F200617F67 /* AppDelegate.m in Sources */,
+				BABA46F01A81D4F200617F67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BABA46FF1A81D4F300617F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABA470A1A81D4F300617F67 /* Roster_Blitz_for_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BABA47051A81D4F300617F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BABA46E91A81D4F200617F67 /* Roster Blitz for iOS */;
+			targetProxy = BABA47041A81D4F300617F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BABA46F71A81D4F200617F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABA46F81A81D4F200617F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BABA46FC1A81D4F200617F67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BABA46FD1A81D4F200617F67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BABA470B1A81D4F300617F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BABA470C1A81D4F300617F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BABA470E1A81D4F300617F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roster Blitz for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BABA470F1A81D4F300617F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Roster Blitz for iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BABA47111A81D4F300617F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Roster Blitz for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster Blitz for iOS.app/Roster Blitz for iOS";
+			};
+			name = Debug;
+		};
+		BABA47121A81D4F300617F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Roster Blitz for iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roster Blitz for iOS.app/Roster Blitz for iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BABA46E51A81D4F200617F67 /* Build configuration list for PBXProject "Roster Blitz for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA470B1A81D4F300617F67 /* Debug */,
+				BABA470C1A81D4F300617F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABA470D1A81D4F300617F67 /* Build configuration list for PBXNativeTarget "Roster Blitz for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA470E1A81D4F300617F67 /* Debug */,
+				BABA470F1A81D4F300617F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BABA47101A81D4F300617F67 /* Build configuration list for PBXNativeTarget "Roster Blitz for iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABA47111A81D4F300617F67 /* Debug */,
+				BABA47121A81D4F300617F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BABA46E21A81D4F200617F67 /* Project object */;
+}
